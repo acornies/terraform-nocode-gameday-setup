@@ -19,3 +19,12 @@ module "vault_namespaces" {
   vault_address       = module.hcp_vault_setup.hcp_vault_endpoint
   vault_token         = module.hcp_vault_setup.hcp_vault_admin_token
 }
+
+module "hcp_terraform_setup" {
+  source  = "app.terraform.io/ender-corp/gameday-setup-tfc/tfe"
+  version = "0.0.2"
+  # insert required variables here
+  event_name          = var.event_name
+  hcp_terraform_project = var.hcp_terraform_project
+  participants        = local.participants
+}

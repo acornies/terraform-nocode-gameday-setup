@@ -9,3 +9,7 @@ variable "event_name" {
 variable "github_organization" {
   type = string
 }
+
+variable "hcp_terraform_project" {
+  type = string
+}
