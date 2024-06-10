@@ -1,6 +1,6 @@
 module "hcp_vault_setup" {
   source  = "app.terraform.io/ender-corp/gameday-setup-vault/hcp"
-  version = "0.0.5"
+  version = "0.0.6"
   # insert required variables here
   event_name                = var.event_name
   cloud_provider            = "aws"
@@ -22,7 +22,7 @@ module "vault_namespaces" {
 
 module "hcp_terraform_setup" {
   source  = "app.terraform.io/ender-corp/gameday-setup-tfc/tfe"
-  version = "0.0.2"
+  version = "0.0.3"
   # insert required variables here
   event_name          = var.event_name
   hcp_terraform_project = var.hcp_terraform_project
