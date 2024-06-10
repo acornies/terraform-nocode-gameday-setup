@@ -3,11 +3,11 @@ output "vault_address" {
 }
 
 output "vault_namespaces" {
-  value = module.vault_participant_namespaces.vault_namespaces
+  value = module.vault_namespaces.vault_namespaces
 }
 
 output "terraform_workspaces" {
-  value = module.hcp_terraform_setup.workpaces
+  value = module.hcp_terraform_setup.workspaces
 }
 
 output "terraform_workspace_tokens" {
