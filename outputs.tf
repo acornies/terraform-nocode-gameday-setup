@@ -7,10 +7,10 @@ output "vault_namespaces" {
 }
 
 output "terraform_workspaces" {
-  value = module.hcp_terraform_setup.terraform_workspaces
+  value = module.hcp_terraform_setup.workpaces
 }
 
 output "terraform_workspace_tokens" {
-  value = module.hcp_terraform_setup.terraform_workspace_tokens
+  value = module.hcp_terraform_setup.team_tokens
   sensitive = true
 }
