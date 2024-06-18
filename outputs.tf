@@ -11,6 +11,6 @@ output "terraform_workspaces" {
 }
 
 output "terraform_workspace_tokens" {
-  value = module.hcp_terraform_setup.team_tokens
+  value     = module.hcp_terraform_setup.team_tokens
   sensitive = true
 }

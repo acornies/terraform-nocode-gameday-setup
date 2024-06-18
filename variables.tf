@@ -6,10 +6,18 @@ variable "event_name" {
   }
 }
 
+variable "region" {
+  type = string
+}
+
 variable "github_organization" {
   type = string
 }
 
-variable "hcp_terraform_project" {
+variable "leaderboard_http_image" {
+  type = string
+}
+
+variable "leaderboard_record_image" {
   type = string
 }
