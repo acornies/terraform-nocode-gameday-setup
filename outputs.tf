@@ -15,7 +15,7 @@ output "aws_participant_sqs_url" {
 }
 
 output "aws_leaderboard_sqs_url" {
-  value = moduke.aws_central.aws_leaderboard_sqs_url
+  value = module.aws_central.aws_leaderboard_sqs_url
 }
 
 output "aws_leaderboard_http_function_url" {
