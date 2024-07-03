@@ -34,3 +34,7 @@ output "aws_leaderboard_rds_instance_address" {
 output "aws_leaderboard_rds_instance_endpoint" {
   value = module.aws_central.aws_leaderboard_rds_instance_endpoint
 }
+
+output "aws_leaderboard_html_endpoint" {
+  value = module.aws_central.aws_leaderboard_html_endpoint
+}
