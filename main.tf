@@ -22,7 +22,7 @@ module "vault_namespaces" {
 
 module "aws_central" {
   source  = "app.terraform.io/ender-corp/gameday-setup-aws/aws"
-  version = "0.1.0"
+  version = "0.1.1"
   # insert required variables here
   event_name               = var.event_name
   region                   = var.region
