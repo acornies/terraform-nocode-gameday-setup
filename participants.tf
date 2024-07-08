@@ -21,5 +21,7 @@ locals {
     team = "boriscortes" },
      "bits4Bytes-challenge" = {
     team = "bits4Bytes" },
+    "geoffaji-challenge" = {
+    team = "geoffaji" },
   }
 }
