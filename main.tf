@@ -15,7 +15,7 @@ module "vault_namespaces" {
   # insert required variables here
   event_name          = var.event_name
   github_organization = var.github_organization
-  use_teams           = var.use_teams
+  use_teams           = false # booleans aren't exposed to the no code user in UI
   participants        = local.participants
   vault_address       = module.hcp_vault_setup.hcp_vault_endpoint
   vault_token         = module.hcp_vault_setup.hcp_vault_admin_token
@@ -23,7 +23,7 @@ module "vault_namespaces" {
 
 module "aws_central" {
   source  = "app.terraform.io/ender-corp/gameday-setup-aws/aws"
-  version = "0.1.3"
+  version = "0.1.4"
   # insert required variables here
   event_name               = var.event_name
   region                   = var.region
