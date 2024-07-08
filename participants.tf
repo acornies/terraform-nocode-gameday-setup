@@ -1,18 +1,19 @@
+# TODO: Move to external data
 locals {
   participants = {
-    "super-awesome-team" = {
-    team = "super-awesome" },
-    "bit-lords-challenge" = {
-    team = "bit-lords" },
-    "bootstrap-trojans-challenge" = {
-    team = "bootstrap-trojans" },
-    "byte-dogs-challenge" = {
-    team = "byte-dogs" },
-    "debug-thugs-challenge" = {
-    team = "debug-thugs" },
-    "hugs-for-bugs-challenge" = {
-    team = "hugs-for-bugs" },
-    "reboot-rebels-challenge" = {
-    team = "reboot-rebels" },
+    "acornies-challange" = {
+    team = "acornies" },
+    "jeffmrich-challenge" = {
+    team = "jeffmrich" },
+    "wellsiau-aws-challenge" = {
+    team = "wellsiau-aws" },
+    "alancaws-challenge" = {
+    team = "alancaws" },
+    "quack5-challenge" = {
+    team = "quack5" },
+    "mistwire-challenge" = {
+    team = "mistwire" },
+    "mmaall-challenge" = {
+    team = "mmaall" },
   }
 }
