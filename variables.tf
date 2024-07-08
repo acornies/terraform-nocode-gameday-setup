@@ -14,6 +14,10 @@ variable "github_organization" {
   type = string
 }
 
+variable "use_teams" {
+  type = bool
+}
+
 variable "leaderboard_http_image" {
   type = string
 }

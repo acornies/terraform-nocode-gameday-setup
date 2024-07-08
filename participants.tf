@@ -1,7 +1,7 @@
 # TODO: Move to external data
 locals {
   participants = {
-    "acornies-challange" = {
+    "acornies-challenge" = {
     team = "acornies" },
     "jeffmrich-challenge" = {
     team = "jeffmrich" },
