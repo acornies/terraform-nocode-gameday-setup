@@ -11,7 +11,7 @@ module "hcp_vault_setup" {
 
 module "vault_namespaces" {
   source  = "app.terraform.io/ender-corp/gameday-setup-vault/vault"
-  version = "0.1.0"
+  version = "0.1.1"
   # insert required variables here
   event_name          = var.event_name
   github_organization = var.github_organization
